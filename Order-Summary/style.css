@@ -22,7 +22,6 @@ body img{
     z-index: -1;
     margin: 0;
     padding:0;
-
 }
 
 main{
@@ -35,7 +34,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  
     text-align: center; 
     background-color: white;
     border-radius: 15px;
@@ -121,6 +119,8 @@ section h5{
 .attribution { 
     font-size: 11px;
     text-align: center;
+    position: relative;
+    top:40px;
 }
 
 .attribution a { 
