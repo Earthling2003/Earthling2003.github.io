@@ -25,6 +25,7 @@ main .card{
     background-color: white;
     padding: 46px 43px;
     color: white;
+
 }
 
 .card h1{
@@ -37,6 +38,7 @@ main .card{
     font-family: 'Lexend Deca', sans-serif;
     padding: 37px 0 50px 0;
     font-weight: 400;
+    opacity: .8;
     
 }
 main .card:nth-child(1){
@@ -55,7 +57,7 @@ main .card:nth-child(3){
 }
 main .card button{
     width: 60%;
-    height: 5vh;
+    height: 50px;
     border: none;
     border-radius: 50px;
     font-family: 'Lexend Deca', sans-serif;
@@ -75,7 +77,7 @@ main .card button{
 
 @media screen and (max-width: 800px) {
     main{
-        height: 200vh;
+        height: auto;
         display: flex;
         flex-direction:column;
         justify-content: center;
