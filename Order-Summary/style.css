@@ -114,3 +114,15 @@ button{
     box-shadow: 0 8px 14px -4px hsl(224, 23%, 55%);
     font-size: 14px;
 }
+section h5{
+    opacity: .7;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+   
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
