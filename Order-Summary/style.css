@@ -82,7 +82,6 @@ main p{
 .price h4 span{
     display: block;
     opacity: .5;
-    
 }
 
 .price img{
@@ -95,7 +94,6 @@ main p{
     text-decoration: underline;
     color: hsl(245, 75%, 52%);
     cursor: pointer;
-
 }
 .infos{
     height: 100vh;
@@ -111,9 +109,12 @@ button{
     color: white;
     box-shadow: 0 8px 14px -4px hsl(224, 23%, 55%);
     font-size: 14px;
+    cursor: pointer;
 }
+
 section h5{
     opacity: .7;
+    cursor: pointer;
 }
 
 .attribution { 
