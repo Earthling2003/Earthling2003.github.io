@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -10,6 +12,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 main{
@@ -17,4 +20,45 @@ main{
     height: 374px;
     background-color: white;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }   
+
+.bg{
+    border-radius: 10px 10px 0 0 ;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 180%;
+    width: 100%;
+}
+
+.infos img{
+    border-radius: 50%;
+    position: relative;
+    width: 90px;
+    box-shadow: white 0 0 0 4px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.bottom div{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bottom h3 span{
+    display: block;
+}
