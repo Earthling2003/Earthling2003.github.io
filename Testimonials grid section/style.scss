@@ -15,10 +15,34 @@ body{
         width: 80%;
         max-width: 1300px;
         margin: auto;
-        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:  1em;
         div{
-            border: 2px solid gray;
+          
             padding: 1.4em;
+            border-radius: 10px;
+           
+            img{
+                border-radius: 50%;
+            }
+
+            &:nth-child(1){
+                background-color: hsl(263, 55%, 52%);
+            }
+            &:nth-child(2){
+                background-color: hsl(217, 19%, 35%);
+                
+            }
+            &:nth-child(3){
+                background-color: hsl(0, 0%, 100%);
+            }
+            &:nth-child(4){
+                background-color: hsl(219, 29%, 14%);
+            }
+            &:nth-child(5){
+                background-color: hsl(0, 0%, 100%);
+            }
         }
     }
        
