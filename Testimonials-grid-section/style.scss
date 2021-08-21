@@ -4,6 +4,7 @@
 
 
 body{
+    font-size: 16px;
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
@@ -15,13 +16,13 @@ body{
     flex-direction: column;
     align-items: center;
     font-weight: 500;
-
+    
     main{
         padding: 25px 0 ;
         width: 75%;
         max-width: 1300px;
         margin: auto;
-    
+      
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap:  1em;
@@ -36,7 +37,7 @@ body{
             flex-direction: column;
             box-shadow: 0 0 19px 0 rgba(0, 0, 0, .2);
             padding: 1.4em;
-            border-radius: 10px;
+            border-radius: 5px;
             .profile{
                 display: flex;
                 align-items: center;
