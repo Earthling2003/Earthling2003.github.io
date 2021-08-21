@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500;600&display=swap');
+@import "./include-media";
+
+
+
 body{
     box-sizing: border-box;
     margin: 0;
@@ -11,38 +15,59 @@ body{
     flex-direction: column;
     align-items: center;
     font-weight: 500;
+
     main{
         padding: 25px 0 ;
         width: 75%;
         max-width: 1300px;
         margin: auto;
+    
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap:  1em;
+      
+        @include media('<desktop') {
+            display: flex;
+            flex-direction: column;
+        }
+
         div{
+            display: flex;
+            flex-direction: column;
             box-shadow: 0 0 19px 0 rgba(0, 0, 0, .2);
             padding: 1.4em;
             border-radius: 10px;
-            h4{
+            .profile{
+                display: flex;
+                align-items: center;
                 
+            }
+
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                display: inline;
+               
+            }
+            h3{
+                font-size: 1.4rem;
+                opacity: .9;            }
+            h4{
+                display: inline;
+                padding-left: 10px;
                 span{
                     display: block;
                     font-weight: 300;
-
+                    opacity: .8;
                 }
-            }
             
-            img{
-                border-radius: 50%;
-                display: inline;
-            }
-            h4:not(strong){
-                display: block;
             }
             p{
+                font-size: 1em;
                 font-weight: 300;
                 opacity: .7;
-                line-height: 1.2em;
+                line-height: 1.5em;
             }
             &:nth-child(1){
                 background-color: hsl(263, 55%, 52%);
