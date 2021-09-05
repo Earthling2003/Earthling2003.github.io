@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=Style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5eff5;
+}
+
+main {
+  width: 633px;
+  height: 474px;
+  max-width: 75%;
+  margin: auto;
+}
+/*# sourceMappingURL=Style.css.map */
